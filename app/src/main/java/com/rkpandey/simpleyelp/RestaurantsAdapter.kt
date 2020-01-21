@@ -38,7 +38,5 @@ class RestaurantsAdapter(val context: Context, val restaurants: List<YelpRestaur
                 CenterCrop(), RoundedCorners(20)
             )).into(itemView.imageView)
         }
-
     }
-
 }
